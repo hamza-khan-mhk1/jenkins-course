@@ -14,6 +14,5 @@ job('NodeJS example') {
     }
     steps {
         shell("npm install")
-        shell("npm start")
     }
 }
